@@ -11,13 +11,54 @@ h4 {
 [class*="col-"] {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
 }
 
 hr {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+article {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+-moz-column-fill: auto;
+   	 column-fill: auto;
+          height: 500px;
+          font-size: 16px;
+       }
+       
+.slider {
+  width: 1224px;
+  height: 700px;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}       
+       
+ .slide {
+ width: 1024px;
+ height: 700px;
+ display: inline-block:
+ background-color: pink;
+ 	}
+ 	
+.slide-ingress-text {
+width: 340px;
+height: 700px;
+background-color:  aqua;
+ }
+          
+        
+
+.internal {
+  display: inline;
+  background-color: wheat;
+  &:nth-child(odd) {
+    background-color: hotpink;
+  }
 }

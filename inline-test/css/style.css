@@ -1,0 +1,43 @@
+.slider {
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+
+.slides {
+	height:500px;
+    width:1225px;
+	display: inline-block;
+	background-color: aqua;
+}
+
+.intro-image {
+	height: auto;
+	width: auto;
+	display: inline-block;
+	background-color: pink;
+}
+
+.intro-text {
+	height: auto;
+	width: 300px;
+	display: inline-block;
+	background-color: fuchsia;
+	white-space: normal;
+	margin-left: 44px;
+}
+
+article {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+-moz-column-fill: auto;
+   	 column-fill: auto;
+          height: 500px;
+          font-size: 16px;
+       }
