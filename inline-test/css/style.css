@@ -1,12 +1,15 @@
 .slider {
-  width: 100%;
-  background-size: cover; 
+ position: absolute;
+height: 100%;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   background-color: #fff;
-  margin-bottom: 10px;
 }
 
 .slides {
@@ -23,7 +26,7 @@
 	width: auto;
 	float: left;
 	margin-left: 100px;
-	margin-top: 15%;
+	margin-top: 20%;
 }
 
 .article-image {
@@ -37,6 +40,7 @@
 	height: 440px;
 	width: 440px;
 	margin-left: 11px;
+	margin-top: -300px;
 	float: left;
 }
 
@@ -49,6 +53,7 @@
 	font-size: 15px;
 	line-height: 1.5;
 	font-family: 'Droid Serif', serif;
+	margin-top: 5%;
 }
 
 
