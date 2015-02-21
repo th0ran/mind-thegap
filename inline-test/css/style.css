@@ -1,6 +1,6 @@
 .slider {
   width: 100%;
-  height: auto;
+  background-size: cover; 
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -10,25 +10,42 @@
 }
 
 .slides {
-	height:500px;
-    width:1225px;
+	background-size: cover; 
+    width:auto;
 	display: inline-block;
 	background-color: #fff;
+	margin-right: 150px;
+	margin-bottom: 100px;
 }
 
 .intro-image {
 	height: auto;
 	width: auto;
-	display: inline-block;
+	float: left;
 	margin-left: 100px;
+	margin-top: 15%;
+}
+
+.article-image {
+	height: 400px;
+	width: 400px;
+	margin-left: 11px;
+	float: left;
+}
+
+.article-video {
+	height: 440px;
+	width: 440px;
+	margin-left: 11px;
+	float: left;
 }
 
 .intro-text {
-	height: auto;
+	height: 100%;
 	width: 300px;
-	display: inline-block;
+	float: left;
 	white-space: normal;
-	margin-left: 150px;
+	margin-left: 100px;
 	font-size: 15px;
 	line-height: 1.5;
 	font-family: 'Droid Serif', serif;
@@ -38,13 +55,26 @@
 .columns {
 	height: auto;
 	width: 350px;
-	display: inline-block;
+	float: left;
 	white-space: normal;
 	margin-left: 44px;
 	font-size: 15px;
 	line-height: 1.5;
 	text-align: justify;
 	font-family: 'Droid Serif', serif;
+}
+
+.columns-scroll {
+	height: 500px;
+	width: 350px;
+	float: left;
+	white-space: normal;
+	margin-left: 44px;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: justify;
+	font-family: 'Droid Serif', serif;
+	overflow: scroll;
 }
 
 article {
