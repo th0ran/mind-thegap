@@ -28,6 +28,7 @@ left: 0;
 top: 0;
 right: 0;
 bottom: 0;
+width: 5500px;
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -38,10 +39,21 @@ bottom: 0;
 .slides {
 	background-size: cover; 
     width:auto;
-	display: inline-block;
+	float: left;
+	position: relative;
 	background-color: #fff;
 	margin-right: 150px;
 	margin-bottom: 100px;
+}
+
+.slides-fixed {
+	background-size: cover; 
+    width: 1250px;
+	float: left;
+	position: relative;
+	background-color: #fff;
+	margin-top: 0px;
+	margin-right: 100px;
 }
 
 .intro-image {
@@ -49,7 +61,7 @@ bottom: 0;
 	width: auto;
 	float: left;
 	margin-left: 100px;
-	margin-top: 20%;
+	margin-top: 225px;
 }
 
 .article-image {
@@ -57,13 +69,14 @@ bottom: 0;
 	width: 400px;
 	margin-left: 11px;
 	float: left;
+	margin-top: 225px;
 }
 
 .article-video {
 	height: 440px;
 	width: 440px;
 	margin-left: 11px;
-	margin-top: -300px;
+	margin-top: 125px;
 	float: left;
 }
 
@@ -76,13 +89,14 @@ bottom: 0;
 	font-size: 15px;
 	line-height: 1.5;
 	font-family: 'Droid Serif', serif;
-	margin-top: 5%;
+	margin-top: 75px;
 }
 
 
 .columns {
-	height: auto;
-	width: 350px;
+	height: 100%;
+	width: 375px;
+	margin-top: 75px;
 	float: left;
 	white-space: normal;
 	margin-left: 44px;
@@ -93,8 +107,9 @@ bottom: 0;
 }
 
 .columns-scroll {
-	height: 500px;
-	width: 350px;
+	height: 550px;
+	width: 375px;
+	margin-top: 75px;
 	float: left;
 	white-space: normal;
 	margin-left: 44px;
